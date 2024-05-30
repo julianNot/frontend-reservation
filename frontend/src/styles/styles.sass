@@ -1,0 +1,30 @@
+@import 'variables'
+@import 'mixins'
+@import 'base'
+
+.container
+  +container
+
+.header
+  background-color: $primary-color
+  color: white
+  padding: 1rem
+  text-align: center
+
+.hotel-list
+  margin-top: 2rem
+
+  .list-group-item
+    border: 1px solid $secondary-color
+    margin-bottom: 1rem
+
+.form-group
+  margin-bottom: 1rem
+
+.btn-primary
+  background-color: $primary-color
+  border-color: $primary-color
+
+  &:hover
+    background-color: darken($primary-color, 10%)
+    border-color: darken($primary-color, 10%)

@@ -1,0 +1,19 @@
+Buenas Prácticas Implementadas
+1. Separación de Responsabilidades
+Se ha seguido el principio de separación de responsabilidades dividiendo el backend y el frontend en diferentes directorios y manejándolos como aplicaciones separadas. Esto facilita el mantenimiento y la escalabilidad del proyecto.
+
+2. Uso de Variables de Entorno
+Se han utilizado variables de entorno para almacenar información sensible como las credenciales de la base de datos y el puerto del servidor. Esto se gestiona a través de un archivo .env que no se incluye en el control de versiones.
+
+3. Manejo de Errores
+Se implementó un manejo adecuado de errores tanto en el frontend como en el backend. Los mensajes de error se muestran claramente a los usuarios y se registran los errores del servidor para facilitar la depuración.
+
+4. Uso de Mongoose para MongoDB
+Para interactuar con MongoDB, se utilizó Mongoose, que facilita la creación de esquemas y modelos, y proporciona una API más amigable para realizar operaciones en la base de datos.
+
+5. Componentización en Angular
+En el frontend, se ha seguido el enfoque de componentización de Angular, creando componentes reutilizables y mantenibles. Cada componente tiene su propio archivo de HTML, SASS y TypeScript.
+
+6. Control de Versiones con Git
+El proyecto utiliza Git para el control de versiones, permitiendo un historial claro de cambios y facilitando la colaboración entre desarrolladores.
+

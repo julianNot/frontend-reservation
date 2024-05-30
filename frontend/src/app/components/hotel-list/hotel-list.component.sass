@@ -1,0 +1,47 @@
+$primary-color: #3498db
+$secondary-color: #2ecc71
+$font-color: #2c3e50
+
+body
+  font-family: Arial, sans-serif
+  color: $font-color
+  background-color: #f8f9fa
+  margin: 0
+  padding: 0
+
+h2, h3
+  color: $primary-color
+
+.btn-primary
+  background-color: $primary-color
+  border-color: $primary-color
+
+  &:hover
+    background-color: darken($primary-color, 10%)
+    border-color: darken($primary-color, 10%)
+
+.form-group
+  margin-bottom: 1.5rem
+
+  label
+    font-weight: bold
+
+  input, select
+    font-size: 1rem
+    padding: 0.5rem
+    border: 1px solid #ccc
+    border-radius: 0.25rem
+
+.list-group-item
+  border: 1px solid $primary-color
+  border-radius: 0.25rem
+  margin-bottom: 0.5rem
+
+  h3
+    margin-top: 0
+
+  p
+    margin: 0
+
+.check-container
+  display: flex
